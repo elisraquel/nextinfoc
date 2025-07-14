@@ -6,7 +6,9 @@ export default function Footer() {
         border-2
         rounded-pill
         bg-warning-subtle
-        fixed-bottom">
+        fixed-bottom"
+        style={{ backgroundColor: '#ff69b4' }}
+        >
             IFMS - Dourados
         </div>
     </>
