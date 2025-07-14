@@ -5,7 +5,6 @@ export default function Footer() {
         border-warning
         border-2
         rounded-pill
-        bg-warning-subtle
         fixed-bottom"
         style={{ backgroundColor: '#ff69b4' }}
         >
