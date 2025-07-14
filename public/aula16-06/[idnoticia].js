@@ -3,7 +3,7 @@ import Cards from "../components/cards"
 import { useRouter } from 'next/router'
 
 export async function getServerSideProps(context) {
-    const res = await fetch(`http://nextinfoc5.vercel.app/api/noticias/` + context.query.idnoticia);
+    const res = await fetch(`https://nextinfoc5-779k4pxju-elis-raquels-projects.vercel.app/api/noticias/` + context.query.idnoticia);
     const repo = await res.json(res);
     return { props: { noticias: repo } }
 }
