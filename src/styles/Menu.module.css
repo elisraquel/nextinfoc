@@ -1,9 +1,9 @@
 .degradeMenu {
-  background: #2a7b9b;
+  background: #d6336c; /* cor rosa inicial */
   background: linear-gradient(
     180deg,
-    rgb(227, 239, 144) 0%,
-    rgb(57, 1, 46) 50%,
-    rgb(131, 200, 212) 100%
+    rgb(255, 105, 180) 0%, 
+    rgb(220, 20, 60) 50%,   
+    rgb(128, 0, 128) 100%    
   );
 }
