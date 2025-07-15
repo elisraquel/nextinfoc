@@ -210,5 +210,3 @@ export const noticias =[
     "datahoracadastro": "2025-06-15T20:17:34.750705"
   }
 ]
-  }
-]
