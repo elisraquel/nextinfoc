@@ -10,7 +10,7 @@ export default function Cardcomponent({ noticias }) {
         <Container>
             <Row xs={1} md={3} className="pt-2 g-4">
                 {Array.isArray(noticias) ? noticias.map((noticia) => (
-                    <Cards idnoticia={noticia.idnoticia}
+                    <Cards idnoticia={noticia._id}
                         titulonoticia={noticia.titulonoticia}
                         conteudonoticia={noticia.conteudonoticia}
                         tiponoticia={noticia.tiponoticia}

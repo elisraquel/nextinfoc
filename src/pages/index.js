@@ -13,7 +13,7 @@ export default function Home({ noticias }) {
     Bem vindo a IFMS - MAIN
             <Row xs={1} md={3} className="pt-2 g-4">
                 {noticias.map(noticia => (
-                    <Cards idnoticia = {noticia.idnoticia}
+                    <Cards idnoticia = {noticia._id}
                            titulonoticia = {noticia.titulonoticia}
                            conteudonoticia = {noticia.conteudonoticia}
                            tiponoticia = {noticia.tiponoticia}
